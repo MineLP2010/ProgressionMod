@@ -3,13 +3,13 @@
 	"id": "progressionmod",
 	"version": "${version}",
 	"name": "Progression mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod about Progression changes in Minecraft",
 	"authors": [
-		"Me!"
+		"JefreyTheSquirrl"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/MineLP2010/ProgressionMod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/progressionmod/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.jefreythesquirrl.progressionmod.ProgressionModDataGenerator"
+		],
+		"client": [
+			"net.jefreythesquirrl.progressionmod.ProgressionModClient"
 		]
 	},
 	"mixins": [
