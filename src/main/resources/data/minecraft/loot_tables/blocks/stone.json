@@ -1,23 +1,4 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "progressionmod:stone_pebble",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 7
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "type": "minecraft:loot_table",
+  "name": "progressionmod:blocks/stone"
 }
