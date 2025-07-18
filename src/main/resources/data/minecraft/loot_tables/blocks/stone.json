@@ -1,4 +1,9 @@
 {
   "type": "minecraft:loot_table",
-  "name": "progressionmod:blocks/stone"
+  "pools": [
+    {
+      "type": "minecraft:loot_table",
+      "loot_table": "progressionmod:blocks/stone"
+    }
+  ]
 }
